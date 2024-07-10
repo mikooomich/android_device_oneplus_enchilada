@@ -50,11 +50,12 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1.vendor \
     vendor.oneplus.fingerprint.extension@1.0.vendor
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.oneplus_sdm845
+    android.hardware.light-service.oneplus_sdm845
 
 # Pocket mode
 PRODUCT_PACKAGES += \
